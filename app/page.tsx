@@ -6,7 +6,7 @@ import { ProjectCard } from "@/components/project-card"
 import { SkillBadge } from "@/components/skill-badge"
 import { ExperienceItem } from "@/components/experience-item"
 import { ContactForm } from "@/components/contact-form"
-import { ThemeToggle } from "@/components/themeToggle"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 
 
