@@ -1,35 +1,20 @@
-'use client';
+"use client"
 
-import React, { useState, useEffect } from 'react';
-import { Sun, Moon } from 'lucide-react';
+import { useTheme } from "next-themes"
+import { Moon, Sun } from "lucide-react"
+import { Button } from "@/components/ui/button" // if using shadcn/ui or Tailwind-compatible buttons
 
-export const ThemeToggle = () => {
-  const [theme, setTheme] = useState<'light' | 'dark' | null>(null);
-
-  useEffect(() => {
-    const savedTheme = localStorage.getItem('theme');
-
-    if (savedTheme === 'dark' || savedTheme === 'light') {
-      setTheme(savedTheme);
-    } else {
-      setTheme(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    }
-  }, []);
-
-  if (theme === null) {
-    return <div>Loading...</div>;
-  }
+export function ThemeToggle() {
+  const { theme, setTheme } = useTheme()
 
   return (
-    <button
-      onClick={() => {
-        const newTheme = theme === 'dark' ? 'light' : 'dark';
-        setTheme(newTheme);
-        localStorage.setItem('theme', newTheme);
-      }}
+    <Button
+      variant="ghost"
+      size="icon"
+      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      {theme === 'dark' ? <Sun className="h-8 w-8" /> : <Moon className="h-8 w-8" />}
+      {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
       <span className="sr-only">Toggle theme</span>
-    </button>
-  );
-};
+    </Button>
+  )
+}
