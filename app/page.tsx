@@ -63,7 +63,7 @@ export default function Home() {
                     <Link href="#projects">View My Work</Link>
                   </Button>
                   <Button variant="outline" size="lg" asChild>
-                    <Link href="/resume.pdf" target="_blank">
+                    <Link href="/Precious Enuagwune.pdf" target="_blank">
                       <Download className="mr-2 h-4 w-4" />
                       Download Resume
                     </Link>
