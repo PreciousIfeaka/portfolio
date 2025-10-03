@@ -248,7 +248,7 @@ export default function Home() {
                 <ProjectCard
                   title="Wattlens – Energy Data Automation Platform"
                   description="A SaaS platform that automates energy data processing for renewable energy developers, consultants, and sustainability teams."
-                  tags={["Typescript", "Express.js", "PostgreSQL", "TypeORM"]}
+                  tags={["Typescript", "Express.js", "PostgreSQL", "TypeORM", "Redis", "Bull"]}
                   imageUrl="/wattlens.webp?height=300&width=400"
                   demoUrl="https://wattlens.com/"
                   codeUrl="#"
@@ -256,7 +256,7 @@ export default function Home() {
                 <ProjectCard
                   title="Resolve"
                   description="An online voting platform that allows organization members place encrypted vote and get real-time voting analytics"
-                  tags={["Nestjs", "PostgreSQL"]}
+                  tags={["Nestjs", "PostgreSQL", "TypeORM", "Redis"]}
                   imageUrl="/resolve-vote.webp?height=300&width=400"
                   demoUrl="https://resolve.vote.com/"
                   codeUrl="#"
