@@ -126,8 +126,8 @@ export default function Home() {
               <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 mb-6">
               I am a skilled backend developer with proven expertise in Node.js, Express.js, Nestjs, TypeScript, Java and
               Spring, specializing in building scalable, efficient, and secure server-side applications. 
-              With over 2 years of experience, I've worked on a variety of projects ranging from small business websites to
-                large-scale enterprise applications.
+              With over 2 years of experience, I've worked on a variety of projects ranging from small to 
+              large-scale applications.
               </p>
               <div className="flex items-center gap-2">
                 <MapPin className="h-5 w-5 text-muted-foreground" />
@@ -247,9 +247,42 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                 <ProjectCard
+                  title="Wattlens – Energy Data Automation Platform"
+                  description="A SaaS platform that automates energy data processing for renewable energy developers, consultants, and sustainability teams."
+                  tags={["Typescript", "Express.js", "PostgreSQL", "TypeORM"]}
+                  imageUrl="/wattlens.webp?height=300&width=400"
+                  demoUrl="https://wattlens.com/"
+                  codeUrl="#"
+                />
+                <ProjectCard
+                  title="Resolve"
+                  description="An online voting platform that allows organization members place encrypted vote and get real-time voting analytics"
+                  tags={["Nestjs", "PostgreSQL"]}
+                  imageUrl="/resolve-vote.webp?height=300&width=400"
+                  demoUrl="https://resolve.vote.com/"
+                  codeUrl="#"
+                />
+                <ProjectCard
+                  title="HomeworkAI"
+                  description="A software the uses AI to help student with their homework, help teachers with grading
+                                and help parents monitor their children’s academic work."
+                  tags={["Typescript", "Express.js", "Next.js", "PostgreSQL"]}
+                  imageUrl="/homeworkai.webp?height=300&width=400"
+                  demoUrl="https://aiforhomework.com/"
+                  codeUrl="#"
+                />
+                <ProjectCard
+                  title="Finance Tracker"
+                  description="An API that helps users manage their monthly finance and also help with budgeting and expense tracking."
+                  tags={["Java", "SpringBoot", "PostgreSQL"]}
+                  imageUrl="/finance-tracker.webp?height=300&width=400"
+                  demoUrl="https://finance-tracker-api-3oj9.onrender.com/"
+                  codeUrl="#"
+                />
+                <ProjectCard
                   title="E-commerce API"
                   description="An extensive e-commerce API with product management, cart functionality, and payment processing."
-                  tags={["Node.js", "Express.js", "PostgreSQL", "TypeORM", "Stripe"]}
+                  tags={["Typescript", "Express.js", "PostgreSQL", "TypeORM", "Stripe"]}
                   imageUrl="/e-commerce.webp?height=300&width=400"
                   demoUrl="https://e-commerce-0-n25c.onrender.com/"
                   codeUrl="https://github.com/PreciousIfeaka/E-Commerce_0"
@@ -265,19 +298,10 @@ export default function Home() {
                 <ProjectCard
                   title="Quizzar"
                   description="A responsive interactive trivia quiz platform where users can take quiz based on selected field."
-                  tags={["HTML", "CSS", "JavaScript"]}
+                  tags={["HTML", "CSS", "Javascript", "Express.js"]}
                   imageUrl="/quizzar.webp?height=300&width=400"
                   demoUrl="https://quizzar-two.vercel.app/"
                   codeUrl="https://github.com/PreciousIfeaka/QUIZzar"
-                />
-                <ProjectCard
-                  title="HomeworkAi"
-                  description="A software the uses AI to help student with their homework, help teachers with grading
-                                and help parents monitor their children’s academic work."
-                  tags={["Express.js", "Next.js", "PostgreSQL"]}
-                  imageUrl="/homeworkai.webp?height=300&width=400"
-                  demoUrl="https://aiforhomework.com/"
-                  codeUrl="#"
                 />
                 <ProjectCard
                   title="Telex Movie Recommender"
@@ -315,22 +339,22 @@ export default function Home() {
                 My professional journey and the companies I've had the pleasure to work with.
               </p>
               <div className="space-y-8 w-full max-w-3xl">
-              <ExperienceItem
-                  title="Backend Developer"
-                  company="Peterx Digital Solutions"
-                  period="November, 2024 - Present"
-                  description="Developed and maintained full-stack applications for various clients. Collaborated with design and product teams to deliver high-quality software solutions."
-                  skills={["Nest.js", "Express.js", "TypeScript", "PostgreSQL", "TypeORM", "AWS EC2"]}
-                />
                 <ExperienceItem
-                  title="Backend Developer (Contract)"
+                  title="Backend Developer"
                   company="Teknesis Limited"
-                  period="August, 2024 - April, 2025"
+                  period="August, 2024 - Present"
                   description="Collaborating with cross-functional teams to ensure smooth delivery of custom software solutions, following Agile methodologies."
                   skills={["Nest.js", "Express.js", "TypeScript", "PostgreSQL", "AWS EC2"]}
                 />
                 <ExperienceItem
-                  title="Backend Development Intern (Finalist)"
+                  title="Backend Developer (Contract)"
+                  company="Peterx Digital Solutions"
+                  period="November, 2024 - March, 2025"
+                  description="Developed and maintained full-stack applications for various clients. Collaborated with design and product teams to deliver high-quality software solutions."
+                  skills={["Nest.js", "Express.js", "TypeScript", "PostgreSQL", "TypeORM", "AWS EC2"]}
+                />
+                <ExperienceItem
+                  title="Backend Developer Intern (Finalist)"
                   company="HNG Tech"
                   period="June, 2024 - September, 2024"
                   description="Developed and maintained full-stack applications for various clients. Collaborated with design and product teams to deliver high-quality software solutions."
