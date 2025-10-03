@@ -63,9 +63,8 @@ export default function Home() {
                     <Link href="#projects">View My Work</Link>
                   </Button>
                   <Button variant="outline" size="lg" asChild>
-                    <Link href="/Precious Enuagwune.pdf" target="_blank">
-                      <Download className="mr-2 h-4 w-4" />
-                      Download Resume
+                    <Link href="https://drive.google.com/file/d/1Ndlw1kLkzr_RYjdWjj3hTclcSXpXiEHm/view?usp=sharing" target="_blank">
+                      View Resume
                     </Link>
                   </Button>
                 </div>
