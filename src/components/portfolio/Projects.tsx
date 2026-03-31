@@ -41,10 +41,10 @@ const projects = [
   },
   {
     title: 'Finance Tracker',
-    description: 'A platform that helps users manage their monthly finance and also help with budgeting and expense tracking.',
+    description: 'An AI powered platform that helps users manage their monthly finance and also help with budgeting and expense tracking.',
     image: fintrack,
     tech: ['Java', 'SpringBoot', 'PostgreSQL', 'JPA'],
-    demo: 'https://fintrack.preciousifeaka.site/',
+    demo: 'https://fintrac.preciousifeaka.site/',
     code: 'https://github.com/PreciousIfeaka/finance-tracker-api.git',
   },
   {
