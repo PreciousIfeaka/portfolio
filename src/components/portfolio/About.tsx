@@ -61,13 +61,13 @@ export const About = () => {
             className="tech-card text-center mb-12"
           >
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I am a skilled backend developer with proven expertise in{' '}
-              <span className="text-foreground font-medium">Node.js, Express.js, Nestjs, TypeScript, Java and Spring</span>,
+              I am a skilled Software Engineer with proven expertise in{' '}
+              <span className="text-foreground font-medium">Java, SpringBoot, Nestjs, Node.js, Express.js and TypeScript</span>,
               specializing in building scalable, efficient, and secure server-side applications.
               With over <span className="text-primary font-semibold">2 years of experience</span>,
               I've worked on a variety of projects ranging from small to large-scale applications.
             </p>
-            
+
             <div className="flex items-center justify-center gap-2 mt-6 text-muted-foreground">
               <MapPin className="h-4 w-4 text-primary" />
               <span>Lagos, Nigeria</span>

@@ -8,7 +8,7 @@ const experiences = [
     company: 'Teknesis Limited',
     period: 'August, 2024 - Present',
     description: 'Collaborating with cross-functional teams to ensure smooth delivery of custom software solutions, following Agile methodologies.',
-    tech: ['Nest.js', 'Express.js', 'TypeScript', 'PostgreSQL', 'AWS EC2'],
+    tech: ['Java', 'SpringBoot', 'Nest.js', 'Express.js', 'TypeScript', 'PostgreSQL', 'AWS EC2'],
     current: true,
   },
   {
@@ -57,7 +57,7 @@ export const Experience = () => {
     <section id="experience" className="relative py-24 md:py-32 overflow-hidden">
       {/* Background */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/5 to-transparent" />
-      
+
       <div className="container relative z-10 px-6">
         <motion.div
           initial="hidden"

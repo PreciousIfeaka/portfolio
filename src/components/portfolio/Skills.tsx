@@ -1,13 +1,13 @@
 import { motion } from 'framer-motion';
 
 const skills = [
+  { name: 'Java', color: 'from-orange-400 to-orange-600' },
+  { name: 'SpringBoot', color: 'from-green-500 to-green-700' },
   { name: 'JavaScript', color: 'from-yellow-400 to-yellow-600' },
   { name: 'TypeScript', color: 'from-blue-400 to-blue-600' },
   { name: 'Node.js', color: 'from-green-400 to-green-600' },
   { name: 'Express.js', color: 'from-gray-400 to-gray-600' },
   { name: 'Nest.js', color: 'from-red-400 to-red-600' },
-  { name: 'Java', color: 'from-orange-400 to-orange-600' },
-  { name: 'Spring', color: 'from-green-500 to-green-700' },
   { name: 'PostgreSQL', color: 'from-blue-500 to-indigo-600' },
   { name: 'MongoDB', color: 'from-green-400 to-emerald-600' },
   { name: 'Docker', color: 'from-cyan-400 to-blue-500' },
@@ -35,7 +35,7 @@ export const Skills = () => {
     <section id="skills" className="relative py-24 md:py-32 overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl" />
-      
+
       <div className="container relative z-10 px-6">
         <motion.div
           initial="hidden"

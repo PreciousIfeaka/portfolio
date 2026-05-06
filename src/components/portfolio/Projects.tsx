@@ -5,38 +5,18 @@ import { Badge } from '@/components/ui/badge';
 import wattlens from '@/assets/wattlens.webp';
 import fintrack from '@/assets/fintrack.webp';
 import homeworkai from '@/assets/homeworkai.webp';
-import quizzar from '@/assets/quizzar.webp';
 import resolve from '@/assets/resolve-vote.webp';
-import telex from '@/assets/telex-movie.webp';
-import ecommerce from '@/assets/e-commerce.webp';
-import orderchat from '@/assets/order-chat.webp';
-import musicbooking from '@/assets/music-booking.webp';
+import syncres from '@/assets/syncres.webp';
 import dailyfood from '@/assets/dailyfood.webp';
 
 
 const projects = [
   {
-    title: 'Wattlens – Energy Data Automation Platform',
-    description: 'A SaaS platform that automates energy data processing for renewable energy developers, consultants, and sustainability teams.',
-    image: wattlens,
-    tech: ['TypeScript', 'Express.js', 'PostgreSQL', 'TypeORM', 'Redis', 'Bull'],
-    demo: 'https://wattlens.com/',
-    code: null,
-  },
-  {
     title: 'Dailyfood - Food Marketplace and delivery platform',
     description: 'A robust marketplace facilitating end-to-end food commerce. It includes a customer\'s app for discovery and ordering, a vendor\'s app for catalog management, and a specialized rider app for optimized delivery routing.',
     image: dailyfood,
-    tech: ['NestJS', 'PostgreSQL', 'TypeORM', 'Docker'],
+    tech: ['SpringBoot', 'PostgreSQL', 'JPA', 'Docker'],
     demo: 'https://www.dailyfood.app/',
-    code: null,
-  },
-  {
-    title: 'Resolve',
-    description: 'An online voting platform that allows organization members place encrypted vote and get real-time voting analytics.',
-    image: resolve,
-    tech: ['Nestjs', 'PostgreSQL', 'TypeORM', 'Redis'],
-    demo: 'https://resolve.vote/',
     code: null,
   },
   {
@@ -48,53 +28,37 @@ const projects = [
     code: 'https://github.com/PreciousIfeaka/finance-tracker-api.git',
   },
   {
+    title: 'Syncres',
+    description: 'An AI-powered platform that uses AI to semantically score CV-to-job-description fit, retailor cv and track applications',
+    image: syncres,
+    tech: ['Java', 'ESpringBoot', 'PostgreSQL', 'JPA'],
+    demo: 'https://syncres.preciousifeaka.site/',
+    code: 'https://github.com/PreciousIfeaka/syncres-be.git',
+  },
+  {
+    title: 'Wattlens – Energy Data Automation Platform',
+    description: 'A SaaS platform that automates energy data processing for renewable energy developers, consultants, and sustainability teams.',
+    image: wattlens,
+    tech: ['TypeScript', 'Express.js', 'PostgreSQL', 'TypeORM', 'Redis', 'Bull'],
+    demo: 'https://wattlens.com/',
+    code: null,
+  },
+  {
+    title: 'Resolve',
+    description: 'An online voting platform that allows organization members place encrypted vote and get real-time voting analytics.',
+    image: resolve,
+    tech: ['Nestjs', 'PostgreSQL', 'TypeORM', 'Redis'],
+    demo: 'https://resolve.vote/',
+    code: null,
+  },
+  {
     title: 'HomeworkAI',
     description: 'A software that uses AI to help students with their homework, help teachers with grading and help parents monitor their children\'s academic work.',
     image: homeworkai,
     tech: ['TypeScript', 'Express.js', 'Next.js', 'PostgreSQL'],
     demo: 'https://aiforhomework.com/',
     code: null,
-  },
-  {
-    title: 'E-commerce API',
-    description: 'An extensive e-commerce API with product management, cart functionality, and payment processing.',
-    image: ecommerce,
-    tech: ['TypeScript', 'Express.js', 'PostgreSQL', 'TypeORM', 'Stripe'],
-    demo: 'https://e-commerce-0-n25c.onrender.com/',
-    code: 'https://github.com/PreciousIfeaka/E-Commerce_0',
-  },
-  {
-    title: 'Order Management API',
-    description: 'A collaborative order management application with real-time communication features.',
-    image: orderchat,
-    tech: ['Nest.js', 'TypeScript', 'Prisma', 'Socket.io'],
-    demo: 'https://order-management-0rp4.onrender.com/',
-    code: 'https://github.com/PreciousIfeaka/order_management',
-  },
-  {
-    title: 'Quizzar',
-    description: 'A responsive interactive trivia quiz platform where users can take quiz based on selected field.',
-    image: quizzar,
-    tech: ['HTML', 'CSS', 'JavaScript', 'Express.js'],
-    demo: 'https://quizzar-two.vercel.app/',
-    code: 'https://github.com/PreciousIfeaka/QUIZzar',
-  },
-  {
-    title: 'Telex Movie Recommender',
-    description: 'An integration API that provides movie recommendations for users in a channel at set intervals based on selected genre.',
-    image: telex,
-    tech: ['Express.js', 'TMDB API', 'Telex'],
-    demo: 'https://telex.im/',
-    code: 'https://github.com/PreciousIfeaka/telex-movie-recommender',
-  },
-  {
-    title: 'Music Booking API',
-    description: 'An API that simulates a music booking system and event management.',
-    image: musicbooking,
-    tech: ['Nest.js', 'PostgreSQL', 'Socket.io', 'Stripe'],
-    demo: 'https://github.com/PreciousIfeaka/music-booking-api',
-    code: 'https://github.com/PreciousIfeaka/music-booking-api',
-  },
+  }
 ];
 
 const containerVariants = {
