@@ -17,7 +17,7 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-grid opacity-30" />
       <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-glow-pulse" />
       <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-glow-pulse" style={{ animationDelay: '1.5s' }} />
-      
+
       <div className="container relative z-10 px-6 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
@@ -93,8 +93,8 @@ export const Hero = () => {
                 size="lg"
                 className="border-border hover:border-primary/50 hover:bg-primary/5 font-semibold px-8"
               >
-                <a 
-                  href="https://drive.google.com/file/d/1u18T-WJeXxicF0XY_p627hBguQ-or1FX/view?usp=sharing"
+                <a
+                  href="https://docs.google.com/document/d/1Jna82C7vmv1-iCR3bsNA6Wk2KivbMsp2/edit?usp=sharing&ouid=117588054014121872640&rtpof=true&sd=true"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -139,7 +139,7 @@ export const Hero = () => {
             <div className="relative">
               {/* Glow effect behind image */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-accent/30 rounded-full blur-3xl scale-110 animate-glow-pulse" />
-              
+
               {/* Profile image container */}
               <motion.div
                 animate={{ y: [0, -10, 0] }}
@@ -153,7 +153,7 @@ export const Hero = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                
+
                 {/* Decorative elements */}
                 <div className="absolute -top-4 -right-4 w-8 h-8 rounded-full bg-primary/80 blur-sm animate-pulse" />
                 <div className="absolute -bottom-2 -left-2 w-6 h-6 rounded-full bg-accent/80 blur-sm animate-pulse" style={{ animationDelay: '0.5s' }} />
