@@ -31,7 +31,7 @@ const projects = [
     title: 'Syncres',
     description: 'An AI-powered platform that uses AI to semantically score CV-to-job-description fit, retailor cv and track applications',
     image: syncres,
-    tech: ['Java', 'ESpringBoot', 'PostgreSQL', 'JPA'],
+    tech: ['Java', 'SpringBoot', 'PostgreSQL', 'JPA'],
     demo: 'https://syncres.preciousifeaka.site/',
     code: 'https://github.com/PreciousIfeaka/syncres-be.git',
   },
