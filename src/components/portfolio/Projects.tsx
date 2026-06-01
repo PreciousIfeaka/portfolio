@@ -8,6 +8,7 @@ import homeworkai from '@/assets/homeworkai.webp';
 import resolve from '@/assets/resolve-vote.webp';
 import syncres from '@/assets/syncres.webp';
 import dailyfood from '@/assets/dailyfood.webp';
+import quizzar from '@/assets/quizzar.webp';
 
 
 const projects = [
@@ -50,6 +51,14 @@ const projects = [
     tech: ['Nestjs', 'PostgreSQL', 'TypeORM', 'Redis'],
     demo: 'https://resolve.vote/',
     code: null,
+  },
+  {
+    title: 'Quizzar',
+    description: 'A dynamic quiz platform that generates scenario-based questions across all difficulty levels  for adaptive and engaging learning experience.',
+    image: quizzar,
+    tech: ['Java', 'Spring Boot', 'Gemini', 'PostgreSQL', 'JPA'],
+    demo: 'https://quizzar.preciousifeaka.site/',
+    code: 'https://github.com/PreciousIfeaka/quizzar-api.git',
   },
   {
     title: 'HomeworkAI',

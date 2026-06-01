@@ -94,7 +94,7 @@ export const Hero = () => {
                 className="border-border hover:border-primary/50 hover:bg-primary/5 font-semibold px-8"
               >
                 <a
-                  href="https://docs.google.com/document/d/1Jna82C7vmv1-iCR3bsNA6Wk2KivbMsp2/edit?usp=sharing&ouid=117588054014121872640&rtpof=true&sd=true"
+                  href="https://drive.google.com/file/d/1H9AQXJqYO8noo9VLjf6c-ggQ6T1FYtjp/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
