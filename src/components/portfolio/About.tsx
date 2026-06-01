@@ -64,7 +64,7 @@ export const About = () => {
               I am a skilled Software Engineer with proven expertise in{' '}
               <span className="text-foreground font-medium">Java, SpringBoot, Nestjs, Node.js, Express.js and TypeScript</span>,
               specializing in building scalable, efficient, and secure server-side applications.
-              With over <span className="text-primary font-semibold">2 years of experience</span>,
+              With over <span className="text-primary font-semibold">3 years of experience</span>,
               I've worked on a variety of projects ranging from small to large-scale applications.
             </p>
 
