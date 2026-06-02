@@ -21,7 +21,7 @@ const projects = [
     code: null,
   },
   {
-    title: 'Finance Tracker',
+    title: 'Fintrac',
     description: 'An AI powered platform that helps users manage their monthly finance and also help with budgeting and expense tracking.',
     image: fintrack,
     tech: ['Java', 'SpringBoot', 'PostgreSQL', 'JPA'],
