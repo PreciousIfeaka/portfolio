@@ -21,6 +21,14 @@ const projects = [
     code: null,
   },
   {
+    title: 'Wattlens – Energy Data Automation Platform',
+    description: 'A SaaS platform that automates energy data processing for renewable energy developers, consultants, and sustainability teams.',
+    image: wattlens,
+    tech: ['TypeScript', 'Express.js', 'PostgreSQL', 'TypeORM', 'Redis', 'Bull'],
+    demo: 'https://wattlens.com/',
+    code: null,
+  },
+  {
     title: 'Fintrac',
     description: 'An AI powered platform that helps users manage their monthly finance and also help with budgeting and expense tracking.',
     image: fintrack,
@@ -35,14 +43,6 @@ const projects = [
     tech: ['Java', 'SpringBoot', 'PostgreSQL', 'JPA'],
     demo: 'https://syncres.preciousifeaka.site/',
     code: 'https://github.com/PreciousIfeaka/syncres-be.git',
-  },
-  {
-    title: 'Wattlens – Energy Data Automation Platform',
-    description: 'A SaaS platform that automates energy data processing for renewable energy developers, consultants, and sustainability teams.',
-    image: wattlens,
-    tech: ['TypeScript', 'Express.js', 'PostgreSQL', 'TypeORM', 'Redis', 'Bull'],
-    demo: 'https://wattlens.com/',
-    code: null,
   },
   {
     title: 'Resolve',
