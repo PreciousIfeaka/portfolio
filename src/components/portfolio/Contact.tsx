@@ -70,7 +70,7 @@ export const Contact = () => {
     <section id="contact" className="relative py-24 md:py-32">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-primary/10" />
-      
+
       <div className="container relative z-10 px-6">
         <motion.div
           initial="hidden"
@@ -98,7 +98,7 @@ export const Contact = () => {
                 <h3 className="font-display text-xl font-semibold mb-6">
                   Contact Information
                 </h3>
-                
+
                 <div className="space-y-6">
                   {contactInfo.map((info) => (
                     <div key={info.label} className="flex items-start gap-4">
