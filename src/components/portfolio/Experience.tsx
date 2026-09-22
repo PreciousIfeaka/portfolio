@@ -4,15 +4,15 @@ import { Badge } from '@/components/ui/badge';
 
 const experiences = [
   {
-    title: 'Backend Developer',
+    title: 'Backend Engineer',
     company: 'Teknesis Limited',
-    period: 'August, 2024 - Present',
+    period: 'August, 2024 - July, 2026',
     description: 'Collaborating with cross-functional teams to ensure smooth delivery of custom software solutions, following Agile methodologies.',
     tech: ['Java', 'SpringBoot', 'Nest.js', 'Express.js', 'TypeScript', 'PostgreSQL', 'AWS'],
     current: true,
   },
   {
-    title: 'Backend Developer (Contract)',
+    title: 'Backend Engineer (Contract)',
     company: 'Peterx Digital Solutions',
     period: 'November, 2024 - March, 2025',
     description: 'Developed and maintained full-stack applications for various clients. Collaborated with design and product teams to deliver high-quality software solutions.',
@@ -20,7 +20,7 @@ const experiences = [
     current: false,
   },
   {
-    title: 'Backend Developer Intern (Finalist)',
+    title: 'Backend Engineer Intern (Finalist)',
     company: 'HNG Tech',
     period: 'June, 2024 - September, 2024',
     description: 'Developed and maintained full-stack applications for various clients. Collaborated with design and product teams to deliver high-quality software solutions.',
